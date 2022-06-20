@@ -1,0 +1,136 @@
+html body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #a2b9bc;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    color: #212529;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: 50px;
+    width: 60%;
+    height: 50%;
+    border: 5px solid rgb(14, 14, 56);
+    border-radius: 15px;
+    background-color: rgb(174 197 211);
+    color: rgb(14, 14, 56);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #welcome {
+    margin: 0px 0px 32px;
+    padding: 64px 0px;
+  }
+  #quiz {
+    display: none;
+    border-color: 10px solid black;
+  }
+  #quiz {
+    color: black;
+    font-size: 20px;
+  }
+  #inputscore {
+    display: none;
+  }
+  #highscore {
+    display: none;
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .para {
+    font-size: 20px;
+    margin: 0px 0px 24px;
+    color: #212529;
+  }
+  #viewhighscores {
+    cursor: pointer;
+  }
+  hr {
+    color: black;
+    size: 100px;
+    font-weight: bolder;
+    margin: 25px;
+  }
+  #score {
+    list-style: none;
+  }
+  .common-button {
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #b0c4d8;
+    margin: 20px 20px;
+    padding: 10px 16px;
+    font-size: 20px;
+    border-radius: 10px 10px;
+    font-weight: bolder;
+    box-shadow: 20px 20px 50px grey;
+  }
+  .common-button:hover {
+    background-color: cadetblue;
+  }
+  .largeButtons {
+    cursor: pointer;
+    color: #212529;
+    background-color: ivory;
+    border-color: black;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    width: 400px;
+    height: 50px;
+    text-align: left;
+    padding:10px;
+    margin:5px;
+  }
+  .largeButtons:hover {
+    background-color: cadetblue;
+  }
+  input {
+    display: inline-block;
+    text-align: start;
+    cursor: text;
+    margin: 0rem;
+    padding: 5px 15px;
+    border-width: 2px;
+  }
+  section {
+    line-height: 1.8;
+    font-size: 1.2rem;
+  }
+  section h2 {
+    padding: 10px 10px;
+  }
+  label {
+    margin-left: 8px;
+  }
+  
+  

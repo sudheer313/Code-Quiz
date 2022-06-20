@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code-Quiz</title>
+    <link rel="stylesheet"type =text/css href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Radio+Canada:wght@300&family=Raleway:ital,wght@1,300&family=Tapestry&display=swap" rel="stylesheet">
+</head>
+<body>
+    <body>
+
+        <!-- Header -->
+    
+        <div class="container-1">
+            <div class="row">
+                <button type="button" class="common-button" class="scores" id="viewhighscores">View Highscores</button>
+                <div class="timer">Time: <span id="timer">0</span></div>
+            </div>
+        </div>
+    
+        <!-- end header -->
+        
+        <div class="container-2">
+            <div class="container-3">
+                 
+                <!-- welcome  -->
+                <div class="container" id="welcome">
+                    <h1 class="h1">Coding Quiz Challenge</h1>
+                    <p class="para">Try to answer the following code-related questions with the time limit.
+                         Keep<br>
+                        in mind that incorrect answers will penalize your scoretime by ten seconds!<br> 
+                        <p class="para">Good Luck!!</p>                   
+                        <button type="button" class="common-button" id="startQuiz">Start Quiz</button>
+                </div>
+                <!--div created via javascript to display the message correct or incorrect-->
+                <div class ="displaymessage"></div>
+                <!-- quiz -->
+                <div class="container" id="quiz">
+                    <h2 class="h2" id="question"></h2>
+                    <div class="container" id="answers">
+                        <div class="quiz-content">
+                            <button type="button" class="largeButtons" id="0"></button>
+                        </div>
+                        <div class="content">
+                            <button type="button" class="largeButtons" id="1"></button>
+                        </div>
+                        <div class="content">
+                            <button type="button" class="largeButtons" id="2"></button>
+                        </div>
+                        <div class="content">
+                            <button type="button" class="largeButtons" id="3"></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- input high scores -->
+                <div class="container" id="inputscore">
+                    <h2 class="h2">Yay!! All Done !! </h2>
+                    <p class="para">Final Score: <span id="score"></span></p>
+                    <p class="para">Enter initials: <input type="text " id="initials"></p>
+                    <button type="button"  class="common-button" id="submitInitials">Submit</button>
+                </div>
+                <!-- view high scores -->
+                <div class="container" id="highscore">
+                    <h2 class ="h2">Highscores</h2>
+                    <div class="container" id="scores">
+                    </div>
+                    <button type="button" class="common-button" id="goback">Go Back</button>
+                    <button type="button" class="common-button" id="clearscores">Clear Scores</button>
+                </div> 
+            </div><br>
+        </div>
+    <!--Link to Javscript-->
+   <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+</html>
