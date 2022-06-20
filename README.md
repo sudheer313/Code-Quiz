@@ -5,8 +5,8 @@
 
 ## Links
 
-[Github URL]<br>
-[Live URL]<br>
+[Github URL]https://github.com/sudheer313/Code-Quiz<br>
+[Live URL]https://sudheer313.github.io/Code-Quiz/<br>
 
 ## User Story
 
